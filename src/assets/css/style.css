@@ -1,0 +1,17 @@
+.app-bar {
+  background-color: #16002b !important;
+}
+.app-bar .v-toolbar__content {
+  display: block;
+}
+.app-bar .menu {
+  text-align: center;
+  position: relative;
+  top: 8px;
+}
+.menu .v-btn {
+  margin-right: 8px;
+  box-shadow: none;
+  background-color: transparent !important;
+  color: white !important;
+}
