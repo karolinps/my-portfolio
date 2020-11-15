@@ -4,7 +4,7 @@
       <v-col class="text-center" cols="12">
         <h1>Hola, soy Karolin Porras!</h1>
         <h4>Desarrolladora Frontend.</h4>
-        <v-btn v-for="el in icons" :key="el" class="mx-2" icon>
+        <v-btn v-for="el in icons" :key="el.id" class="mx-2" icon>
           <a :href="el.url" target="_blank">
             <v-icon>
               {{ el.icon }}
@@ -21,14 +21,23 @@ export default {
   name: "Banner",
   data: () => ({
     icons: [
-      { icon: "mdi-facebook", url: "https://www.facebook.com/karolindev" },
       {
+        id: 1,
+        icon: "mdi-facebook",
+        url: "https://www.facebook.com/karolindev",
+      },
+      {
+        id: 2,
         icon: "mdi-linkedin",
         url: "https://www.linkedin.com/in/karolin-porras",
       },
-      { icon: "mdi-instagram", url: "https://www.instagram.com/karolindev" },
-      { icon: "mdi-github", url: "https://www.github.com/karolinps" },
-      { icon: "mdi-telegram", url: "https://t.me/karolindev" },
+      {
+        id: 3,
+        icon: "mdi-instagram",
+        url: "https://www.instagram.com/karolindev",
+      },
+      { id: 4, icon: "mdi-github", url: "https://www.github.com/karolinps" },
+      { id: 5, icon: "mdi-telegram", url: "https://t.me/karolindev" },
     ],
   }),
 };

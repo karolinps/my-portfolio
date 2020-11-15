@@ -2,19 +2,20 @@
   <v-container id="works">
     <h1>Trabajos</h1>
     <v-row no-gutters>
-      <v-col md="4" offset-md="2">
-        <v-img src="../../assets/images/me.jpeg" />
-      </v-col>
-      <v-col md="4" offset-md="1">
-        <p>
-          Mi nombre es Karolin Angelica Porras Serrano, tengo 27 años, soy
-          Ingeniero de Sistemas, egresada en el 2015 de la UNEFA, nací en
-          Venezuela, pero actualmente resido en Lima - Perú, desde que egrese
-          empece a trabajar en el área de programación, pasando por varias
-          empresas que me han permitido aportar, aprender y crecer
-          profesionalmente. Trabajo en el área del frontend, pero he realizado
-          algunos trabajo como backend.
-        </p>
+      <v-col md="3" lg="3" sm="4" v-for="work in works" :key="work.name">
+        <v-card class="mx-auto" dark max-width="400">
+          <v-card-title>
+            <v-icon large left> mdi-domain </v-icon>
+            <span class="">{{ work.name }}</span>
+          </v-card-title>
+
+          <v-card-text class="date">
+            {{ work.date_begin }} - {{ work.date_end }}
+          </v-card-text>
+          <v-card-text class="description">
+            {{ work.description }}
+          </v-card-text>
+        </v-card>
       </v-col>
     </v-row>
   </v-container>
@@ -23,22 +24,85 @@
 <script>
 export default {
   name: "Works",
+  data: () => ({
+    works: [
+      {
+        name: "Sistelnet",
+        date_begin: "Abril 2015",
+        date_end: "Mayo 2016",
+        description: "Desarrollo de un sistema de administración y gestión.",
+      },
+      {
+        name: "Lince Solutions",
+        date_begin: "Mayo 2016",
+        date_end: "Julio 2016",
+        description: "Creación de paginas, landing pages.",
+      },
+      {
+        name: "Zippytech",
+        date_begin: "Julio 2016",
+        date_end: "Junio 2017",
+        description:
+          "Administración página web, sistemas administrativos, catalago versión Netflix",
+      },
+      {
+        name: "Freenlacer",
+        date_begin: "Julio 2017",
+        date_end: "Junio 2019",
+        description: "Web site, one pages, CMS, plataforma virtual.",
+      },
+      {
+        name: "Senda TI Solutions",
+        date_begin: "Junio 2019",
+        date_end: "Abril 2020",
+        description: "App web de facturación electrónica.",
+      },
+      {
+        name: "Altimea",
+        date_begin: "Abril 2020",
+        date_end: "Julio 2020",
+        description: "Administrador catálogo digital.",
+      },
+      {
+        name: "Proyecto Obeya ",
+        date_begin: "Julio 2020",
+        date_end: "Actualidad",
+        description:
+          "Una aplicación web intuitiva para ciclos PDCA ejecutivos basada en Lean Toyota / Su landing pages",
+      },
+    ],
+  }),
 };
 </script>
 
 <style>
+#works {
+  margin-bottom: 20px;
+}
 #works h1 {
   text-align: center;
   margin-bottom: 35px;
   font-family: "Montserrat";
   font-size: 40px;
   letter-spacing: 0.5px;
+  margin-top: 20px;
 }
-p {
-  text-align: justify;
-  font-family: "Roboto";
-  line-height: 25px;
-  letter-spacing: 0.5px;
+#works .v-card {
+  margin-bottom: 12px;
+  height: 220px;
+  margin-right: 10px !important;
+  background-color: gray;
+}
+#works .description {
   font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 0px 13px;
+}
+#works .date {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+#works span {
+  letter-spacing: 1.5px;
 }
 </style>
