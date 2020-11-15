@@ -1,24 +1,28 @@
 <template>
-  <v-parallax dark src="../../assets/images/back.jpg" id="home">
-    <v-row align="center" justify="center">
-      <v-col class="text-center" cols="12">
-        <h1>Hola, soy Karolin Porras!</h1>
-        <h4>Desarrolladora Frontend.</h4>
+  <v-footer dark padless class="footer">
+    <v-card class="flex" flat>
+      <v-card-title>
+        <v-spacer></v-spacer>
+
         <v-btn v-for="el in icons" :key="el" class="mx-2" icon>
           <a :href="el.url" target="_blank">
-            <v-icon>
+            <v-icon size="30px">
               {{ el.icon }}
             </v-icon>
           </a>
         </v-btn>
-      </v-col>
-    </v-row>
-  </v-parallax>
+      </v-card-title>
+
+      <v-card-text class="py-2 white--text text-center">
+        <strong>Karolin APS</strong> — {{ new Date().getFullYear() }}
+      </v-card-text>
+    </v-card>
+  </v-footer>
 </template>
 
 <script>
 export default {
-  name: "Banner",
+  name: "Footer",
   data: () => ({
     icons: [
       { icon: "mdi-facebook", url: "https://www.facebook.com/karolindev" },
@@ -35,23 +39,11 @@ export default {
 </script>
 
 <style>
-h1 {
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 40px;
-  letter-spacing: 0.5px;
+.footer a {
+  color: white !important;
+  text-decoration: none;
 }
-h4 {
-  text-align: center;
-  font-family: "Montserrat";
-  font-size: 20px;
-  letter-spacing: 0.5px;
-}
-#home .v-icon {
-  font-size: 30px;
-  color: white;
-  margin-right: 4px;
-  margin-top: 10px;
-  cursor: pointer;
+.footer .v-card__title {
+  background-color: #262828;
 }
 </style>

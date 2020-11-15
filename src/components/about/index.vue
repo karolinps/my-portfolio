@@ -2,10 +2,10 @@
   <v-container id="about">
     <h1>Sobre mi</h1>
     <v-row no-gutters>
-      <v-col md="4" offset-md="2">
+      <v-col md="4" sm="4" offset-md="2" offset-sm="2">
         <v-img src="../../assets/images/me.jpeg" />
       </v-col>
-      <v-col md="4" offset-md="1">
+      <v-col md="4" sm="4" offset-md="1" offset-sm="1">
         <p>
           Mi nombre es Karolin Angelica Porras Serrano, tengo 27 años, soy
           Ingeniero de Sistemas, egresada en el 2015 de la UNEFA, nací en

@@ -6,7 +6,7 @@
     <Skill />
     <Works />
     <Contactame />
-    <v-main> </v-main>
+    <Footer />
   </v-app>
 </template>
 <script>
@@ -16,6 +16,7 @@ import About from "./components/about/index";
 import Skill from "./components/skill/index";
 import Works from "./components/works/index";
 import Contactame from "./components/contactame/index";
+import Footer from "./components/footer/index";
 export default {
   name: "App",
 
@@ -26,6 +27,7 @@ export default {
     Skill,
     Works,
     Contactame,
+    Footer,
   },
 
   data: () => ({

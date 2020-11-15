@@ -2,7 +2,7 @@
   <v-parallax dark src="../../assets/images/back.jpg" id="skill">
     <h1>Mis Skills</h1>
     <v-row :align="align" no-gutters>
-      <v-col v-for="item in skills" v-bind:key="item.id" cols="2">
+      <v-col v-for="item in skills" v-bind:key="item.id" lg="2" md="2" sm="3">
         <v-card class="pa-2" outlined tile> {{ item.title }} </v-card>
       </v-col>
     </v-row>
