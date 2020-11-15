@@ -1,5 +1,5 @@
 <template>
-  <v-container class="about">
+  <v-container id="about">
     <h1>Sobre mi</h1>
     <v-row no-gutters>
       <v-col md="4" offset-md="2">
@@ -27,10 +27,10 @@ export default {
 </script>
 
 <style>
-.about {
+#about {
   margin-bottom: 30px;
 }
-.about h1 {
+#about h1 {
   text-align: center;
   margin-bottom: 35px;
   font-family: "Montserrat";

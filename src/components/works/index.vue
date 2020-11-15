@@ -1,5 +1,5 @@
 <template>
-  <v-container class="about">
+  <v-container id="works">
     <h1>Trabajos</h1>
     <v-row no-gutters>
       <v-col md="4" offset-md="2">
@@ -27,7 +27,7 @@ export default {
 </script>
 
 <style>
-.about h1 {
+#works h1 {
   text-align: center;
   margin-bottom: 35px;
   font-family: "Montserrat";

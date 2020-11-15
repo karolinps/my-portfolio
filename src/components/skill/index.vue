@@ -1,5 +1,5 @@
 <template>
-  <v-parallax dark src="../../assets/images/back.jpg" class="parallax-skill">
+  <v-parallax dark src="../../assets/images/back.jpg" id="skill">
     <h1>Mis Skills</h1>
     <v-row :align="align" no-gutters>
       <v-col v-for="item in skills" v-bind:key="item.id" cols="2">
@@ -110,7 +110,7 @@ export default {
 </script>
 
 <style>
-.parallax-skill h1 {
+#skill h1 {
   text-align: center;
   font-family: "Montserrat";
   font-size: 40px;
@@ -118,10 +118,10 @@ export default {
   margin-top: 45px;
   margin-bottom: 25px;
 }
-.parallax-skill .v-parallax__content {
+#skill .v-parallax__content {
   height: auto !important;
 }
-.parallax-skill .v-card {
+#skill .v-card {
   text-align: center;
   letter-spacing: 1.5px;
   color: gray;
@@ -129,5 +129,6 @@ export default {
   border: 1px solid;
   margin-right: 10px;
   background: transparent;
+  margin-bottom: 10px;
 }
 </style>

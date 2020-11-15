@@ -2,16 +2,19 @@
   <v-app-bar app class="app-bar">
     <div class="menu">
       <v-btn>
-        <span>Sobre mi</span>
+        <a href="#home"> <span>Inicio</span> </a>
       </v-btn>
       <v-btn>
-        <span>Skill</span>
+        <a href="#about"> <span>Sobre mi</span> </a>
       </v-btn>
       <v-btn>
-        <span>Proyectos</span>
+        <a href="#skill"> <span>Skills</span> </a>
       </v-btn>
       <v-btn>
-        <span>Contáctame</span>
+        <a href="#works"> <span>Trabajo</span> </a>
+      </v-btn>
+      <v-btn>
+        <a href="#contactme"> <span>Contáctame</span> </a>
       </v-btn>
     </div>
   </v-app-bar>
@@ -24,4 +27,8 @@ export default {
 </script>
 
 <style>
+.menu a {
+  color: white !important;
+  text-decoration: none;
+}
 </style>
