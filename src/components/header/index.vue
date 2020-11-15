@@ -14,7 +14,7 @@
         <a href="#works"> <span>Trabajo</span> </a>
       </v-btn>
       <v-btn>
-        <a href="#contactme"> <span>Contáctame</span> </a>
+        <a href="#contactame"> <span>Contáctame</span> </a>
       </v-btn>
     </div>
   </v-app-bar>
