@@ -45,4 +45,9 @@ p {
   letter-spacing: 0.5px;
   font-size: 15px;
 }
+@media(max-width: 600px){
+  p {
+    margin-top: 12px;
+  }
+}
 </style>

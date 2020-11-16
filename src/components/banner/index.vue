@@ -63,4 +63,8 @@ h4 {
   margin-top: 10px;
   cursor: pointer;
 }
+#home a {
+  color: white !important;
+  text-decoration: none;
+}
 </style>
