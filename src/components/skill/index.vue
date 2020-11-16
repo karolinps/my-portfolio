@@ -2,7 +2,14 @@
   <v-parallax dark src="../../assets/images/back.jpg" id="skill">
     <h1>Mis Skills</h1>
     <v-row no-gutters>
-      <v-col v-for="item in skills" v-bind:key="item.id" lg="2" md="2" sm="3">
+      <v-col
+        v-for="item in skills"
+        v-bind:key="item.id"
+        lg="2"
+        md="2"
+        sm="3"
+        cols="6"
+      >
         <v-card class="pa-2" outlined tile> {{ item.title }} </v-card>
       </v-col>
     </v-row>
@@ -130,5 +137,10 @@ export default {
   margin-right: 10px;
   background: transparent;
   margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+  #skill {
+    height: 800px !important;
+  }
 }
 </style>
