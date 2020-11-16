@@ -43,14 +43,14 @@ export default {
         name: "Lince Solutions",
         date_begin: "Mayo 2016",
         date_end: "Julio 2016",
-        description: "Creación de paginas, landing pages.",
+        description: "Creación de páginas, landing pages.",
       },
       {
         name: "Zippytech",
         date_begin: "Julio 2016",
         date_end: "Junio 2017",
         description:
-          "Administración página web, sistemas administrativos, catalago versión Netflix",
+          "Administración de página web, sistemas administrativos, catálago versión Netflix.",
       },
       {
         name: "Freelancer",
