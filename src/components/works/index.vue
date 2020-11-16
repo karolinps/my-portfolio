@@ -53,7 +53,7 @@ export default {
           "Administración página web, sistemas administrativos, catalago versión Netflix",
       },
       {
-        name: "Freenlacer",
+        name: "Freelancer",
         date_begin: "Julio 2017",
         date_end: "Junio 2019",
         description: "Web site, one pages, CMS, plataforma virtual.",
