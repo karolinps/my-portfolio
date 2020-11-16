@@ -5,6 +5,7 @@
     <About />
     <Skill />
     <Works />
+    <Project />
     <Contactame />
     <Footer />
   </v-app>
@@ -15,6 +16,7 @@ import Banner from "./components/banner/index";
 import About from "./components/about/index";
 import Skill from "./components/skill/index";
 import Works from "./components/works/index";
+import Project from "./components/projects/index";
 import Contactame from "./components/contactame/index";
 import Footer from "./components/footer/index";
 export default {
@@ -26,6 +28,7 @@ export default {
     About,
     Skill,
     Works,
+    Project,
     Contactame,
     Footer,
   },

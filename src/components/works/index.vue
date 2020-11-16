@@ -2,8 +2,15 @@
   <v-container id="works">
     <h1>Trabajos</h1>
     <v-row no-gutters>
-      <v-col md="3" lg="3" sm="4" v-for="work in works" :key="work.name">
-        <v-card class="mx-auto" dark max-width="400">
+      <v-col
+        md="3"
+        lg="3"
+        sm="4"
+        cols="12"
+        v-for="work in works"
+        :key="work.name"
+      >
+        <v-card dark>
           <v-card-title>
             <v-icon large left> mdi-domain </v-icon>
             <span class="">{{ work.name }}</span>
@@ -104,5 +111,10 @@ export default {
 }
 #works span {
   letter-spacing: 1.5px;
+}
+@media (max-width: 600px) {
+  #works span {
+    letter-spacing: 0.5px;
+  }
 }
 </style>
