@@ -36,15 +36,15 @@ export default {
         },
         {
           id: 4,
-          title: "Less",
+          title: "LESS",
         },
         {
           id: 5,
-          title: "Reactjs",
+          title: "React.js",
         },
         {
           id: 6,
-          title: "Vuejs",
+          title: "Vue.js",
         },
         {
           id: 7,
@@ -52,11 +52,11 @@ export default {
         },
         {
           id: 8,
-          title: "Material-ui",
+          title: "Material-UI",
         },
         {
           id: 9,
-          title: "AntDesign",
+          title: "Ant Design",
         },
         {
           id: 10,
@@ -64,23 +64,23 @@ export default {
         },
         {
           id: 11,
-          title: "Nodejs",
+          title: "Node.js",
         },
         {
           id: 12,
-          title: "Express js",
+          title: "Express.js",
         },
         {
           id: 13,
-          title: "Mongodb",
+          title: "MongoDB",
         },
         {
           id: 14,
-          title: "Github",
+          title: "GitHub",
         },
         {
           id: 15,
-          title: "Gitlab",
+          title: "GitLab",
         },
         {
           id: 16,
