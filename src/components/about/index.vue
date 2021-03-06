@@ -7,7 +7,7 @@
       </v-col>
       <v-col md="4" sm="4" offset-md="1" offset-sm="1">
         <p>
-          Mi nombre es Karolin Angelica Porras Serrano, tengo 27 años, soy
+          Mi nombre es Karolin Angelica Porras Serrano, tengo 28 años, soy
           Ingeniero de Sistemas, egresada en el 2015 de la UNEFA, nací en
           Venezuela, pero actualmente resido en Lima - Perú, desde que egrese
           empece a trabajar en el área de programación, pasando por varias

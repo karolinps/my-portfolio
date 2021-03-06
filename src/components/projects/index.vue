@@ -23,22 +23,16 @@
 </template>
 
 <script>
-import tikvao_login from "../../assets/images/tikvao_login.png";
-import admin_tikvao from "../../assets/images/admin_tikvao.png";
+import admin from "../../assets/images/admin_tikvao.png";
 import calculadora from "../../assets/images/calculadora.png";
 export default {
   name: "Projects",
   data: () => ({
     projects: [
       {
-        title: "Reactjs - Api con nodejs",
-        src: tikvao_login,
-        url: "https://dev.tikvao.com/",
-      },
-      {
         title: "Reactjs - Nodejs",
-        src: admin_tikvao,
-        url: "https://administrador.tikvao.com/",
+        src: admin,
+        url: "https://panel-administrator.netlify.app",
       },
 
       {
