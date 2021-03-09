@@ -17,6 +17,12 @@
             ><v-img :src="card.src"> </v-img>
           </a>
         </v-card>
+        <p
+          style="font-size:14px; text-align: center;
+font-weight: bold;"
+        >
+          {{ card.description }}
+        </p>
       </v-col>
     </v-row>
   </v-container>
@@ -25,18 +31,28 @@
 <script>
 import admin from "../../assets/images/admin_tikvao.png";
 import calculadora from "../../assets/images/calculadora.png";
+import pageGatsby from "../../assets/images/page-gatsby-translate.png";
 export default {
   name: "Projects",
   data: () => ({
     projects: [
       {
-        title: "Reactjs - Nodejs",
+        title: "Landing",
+        description:
+          "Desarrollado con Gatsby, integrando sistema de traducción y Ant Desing",
+        src: pageGatsby,
+        url: "https://page-gatsby-translate.vercel.app",
+      },
+      {
+        title: "Administrador",
+        description: "Desarrollado con Reactjs, Ant Desing, Nodejs y MongoDB",
         src: admin,
         url: "https://panel-administrator.netlify.app",
       },
 
       {
-        title: "HTML, CSS & JS",
+        title: "Calculadora de préstamos",
+        description: "HTML, CSS & JS",
         src: calculadora,
         url: "https://mqyn8wr3mj.csb.app/",
       },
