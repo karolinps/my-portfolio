@@ -47,6 +47,14 @@ export default {
           title: "Vue.js",
         },
         {
+          id: 23,
+          title: "Next.js",
+        },
+        {
+          id: 24,
+          title: "Gatsby.js",
+        },
+        {
           id: 7,
           title: "Bootstrap",
         },
