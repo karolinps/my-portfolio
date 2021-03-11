@@ -32,10 +32,18 @@ font-weight: bold;"
 import admin from "../../assets/images/admin_tikvao.png";
 import calculadora from "../../assets/images/calculadora.png";
 import pageGatsby from "../../assets/images/page-gatsby-translate.png";
+import nextFirstProject from "../../assets/images/next-first-project.png";
 export default {
   name: "Projects",
   data: () => ({
     projects: [
+      {
+        title: "Aplicación listado de usuarios",
+        description:
+          "Desarrollado con Nextjs, consumiendo api externa y Ant Desing",
+        src: nextFirstProject,
+        url: "https://nextjs-first-project-iota.vercel.app/login",
+      },
       {
         title: "Landing",
         description:
