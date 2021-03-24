@@ -39,6 +39,10 @@ export default {
           title: "LESS",
         },
         {
+          id: 44,
+          title: "Redux",
+        },
+        {
           id: 5,
           title: "React.js",
         },

@@ -33,10 +33,19 @@ import admin from "../../assets/images/admin_tikvao.png";
 import calculadora from "../../assets/images/calculadora.png";
 import pageGatsby from "../../assets/images/page-gatsby-translate.png";
 import nextFirstProject from "../../assets/images/next-first-project.png";
+import rickAndMortyRedux from "../../assets/images/rickandmorty.png";
+
 export default {
   name: "Projects",
   data: () => ({
     projects: [
+      {
+        title: "Aplicación Rick and Morty",
+        description:
+          "Desarrollado con Reactjs, Redux, Styled Components, consumiendo api externa de Rick and Morty",
+        src: rickAndMortyRedux,
+        url: "https://react-redux-rickandmorty.vercel.app/",
+      },
       {
         title: "Aplicación listado de usuarios",
         description:
