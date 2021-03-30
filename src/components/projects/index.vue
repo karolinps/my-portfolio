@@ -34,11 +34,19 @@ import calculadora from "../../assets/images/calculadora.png";
 import pageGatsby from "../../assets/images/page-gatsby-translate.png";
 import nextFirstProject from "../../assets/images/next-first-project.png";
 import rickAndMortyRedux from "../../assets/images/rickandmorty.png";
+import withFirebase from "../../assets/images/with-firebase.png";
 
 export default {
   name: "Projects",
   data: () => ({
     projects: [
+    {
+        title: "CRUD con firebase",
+        description:
+          "Desarrollado con Reactjs, Ant Desing e Integración Firebase ",
+        src: withFirebase,
+        url: "https://crud-with-firebase.vercel.app/",
+      },
       {
         title: "Aplicación Rick and Morty",
         description:
