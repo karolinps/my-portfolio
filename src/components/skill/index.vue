@@ -38,6 +38,10 @@ export default {
           id: 4,
           title: "LESS",
         },
+         {
+          id: 25,
+          title: "Styled Components",
+        },
         {
           id: 44,
           title: "Redux",
@@ -73,6 +77,18 @@ export default {
         {
           id: 10,
           title: "Vuetify",
+        },
+         {
+          id: 23,
+          title: "Chackra UI React.js",
+        },
+         {
+          id: 24,
+          title: "Firebase",
+        },
+         {
+          id: 25,
+          title: "Git",
         },
         {
           id: 11,
