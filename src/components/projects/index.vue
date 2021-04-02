@@ -35,11 +35,19 @@ import pageGatsby from "../../assets/images/page-gatsby-translate.png";
 import nextFirstProject from "../../assets/images/next-first-project.png";
 import rickAndMortyRedux from "../../assets/images/rickandmorty.png";
 import withFirebase from "../../assets/images/with-firebase.png";
+import AuthFirebase from "../../assets/images/auth-firebase.png"
 
 export default {
   name: "Projects",
   data: () => ({
     projects: [
+       {
+        title: "Auth con firebase",
+        description:
+          "Desarrollado con Reactjs ",
+        src: AuthFirebase,
+        url: "https://auth-with-firebase.vercel.app/login",
+      },
     {
         title: "CRUD con firebase",
         description:
