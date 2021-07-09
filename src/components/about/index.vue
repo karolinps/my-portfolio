@@ -8,12 +8,12 @@
       <v-col md="4" sm="4" offset-md="1" offset-sm="1">
         <p>
           Mi nombre es Karolin Angelica Porras Serrano, tengo 28 años, soy
-          Ingeniero de Sistemas, egresada en el 2015 de la UNEFA, nací en
-          Venezuela, pero actualmente resido en Lima - Perú, desde que egrese
+          Ingeniero de Sistemas, egresada en el 2015 de la UNEFA, soy
+          Venezolana, pero actualmente resido en Lima - Perú, desde que egrese
           empece a trabajar en el área de programación, pasando por varias
           empresas que me han permitido aportar, aprender y crecer
           profesionalmente. Trabajo en el área del frontend, pero he realizado
-          algunos trabajo como backend.
+          algunos trabajo en backend.
         </p>
       </v-col>
     </v-row>
@@ -45,7 +45,7 @@ p {
   letter-spacing: 0.5px;
   font-size: 15px;
 }
-@media(max-width: 600px){
+@media (max-width: 600px) {
   p {
     margin-top: 12px;
   }

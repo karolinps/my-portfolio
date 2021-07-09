@@ -32,13 +32,17 @@ export default {
         },
         {
           id: 3,
-          title: "JS",
+          title: "JavaScript",
+        },
+        {
+          id: 33,
+          title: "TypeScript",
         },
         {
           id: 4,
           title: "LESS",
         },
-         {
+        {
           id: 25,
           title: "Styled Components",
         },
@@ -78,15 +82,15 @@ export default {
           id: 10,
           title: "Vuetify",
         },
-         {
+        {
           id: 23,
           title: "Chackra UI React.js",
         },
-         {
+        {
           id: 24,
           title: "Firebase",
         },
-         {
+        {
           id: 25,
           title: "Git",
         },

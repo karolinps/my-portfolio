@@ -71,11 +71,12 @@ export default {
         description: "Administrador catálogo digital.",
       },
       {
-        name: "Proyecto Obeya ",
+        name: "Freelancer",
         date_begin: "Julio 2020",
         date_end: "Actualidad",
-        description:
-          "Una aplicación web intuitiva para ciclos PDCA ejecutivos basada en Lean Toyota / Su landing pages",
+        description: `Aplicación web intuitiva para ciclos PDCA,
+          Aplicación web de operaciones,
+          Calendario académico.`,
       },
     ],
   }),
